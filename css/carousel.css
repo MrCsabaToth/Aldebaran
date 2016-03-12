@@ -123,10 +123,30 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  .navbar-brand
+  {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 20px;
+  }
+
+  .navbar-brand
+  {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
   }
 }
